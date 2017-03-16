@@ -50,4 +50,10 @@ public class Profile {
      */
     private Profile() {}
 
+	 public void update(String displayName2, TeeShirtSize teeShirtSize2) {
+		if(displayName2!=null)
+			this.displayName = displayName2;
+		if(teeShirtSize2!=null)
+			this.teeShirtSize = teeShirtSize2;		
+}
 }
